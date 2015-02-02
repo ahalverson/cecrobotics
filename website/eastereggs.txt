@@ -1,0 +1,29 @@
+Easter eggs
+
+=================
+
+Congratulations! You have discovered the easter egg listing for the site!
+
+-------------------
+
+Easter egg #1
+
+If the white button in the navbar says "You done broke it (x1000)", click and it will play a sound.
+
+(Hint: reload the page to change the button text)
+
+-------------------
+-------------------
+
+Easter egg #2
+
+Click on the picture of Nathan in the bio page and it will play a sound!
+
+-------------------
+-------------------
+
+Easter egg #3
+
+Click on the egg in the footer and you get to this page!
+
+-------------------
