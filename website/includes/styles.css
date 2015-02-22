@@ -2,3 +2,20 @@
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+.sponsors {
+
+	display: inline-block;
+	font-size: 2em;
+
+}
+
+.sponsor-title {
+	font-size: 2em;
+	font-variant: small-caps;
+}
+
+.contact {
+	font-size: 1.3em;
+	
+}
