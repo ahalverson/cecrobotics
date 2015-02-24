@@ -41,9 +41,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">The Team</a></li>
-            <li><a href="http://blog.cecrobotics.com">Blog</a></li>
+            <li class="active caps-text"><a href="index.html">Home</a></li>
+            <li class="caps-text"><a href="about.html">The Team</a></li>
+            <li class="caps-text"><a href="http://blog.cecrobotics.com">Blog</a></li>
           </ul>
             <button class="btn btn-default navbar-btn navbar-right" id="random-phrase" onclick="ifBroke()"></button>
           </span>
@@ -67,16 +67,18 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
+          <br>
           <h2>We use COTS</h2>
-          <p>In creating our forklift and sweeper, we decided to use 80/20 instead of standard TETRIX materials. This maximizes efficiency and minimizes resistance in the forklift.</p>
+          <p class="fix-text">In creating our forklift and sweeper, we decided to use 80/20 instead of standard TETRIX materials. This maximizes efficiency and minimizes resistance in the forklift.</p>
         </div>
         <div class="col-md-4">
           <h2>Powered by <img src="img/solidworks.jpg" style="width: 155px; height: 54px;"></h2>
           <p>Instead of settling for the status quo in CAD, we took it to the next level and used the industry standard SolidWorks. We believe that in using Solidworks we are preparing our members for careers in engineering, because it is becoming the preferred 3D design software for many companies.</p>
        </div>
         <div class="col-md-4">
+          <br>
           <h2>Open Source</h2>
-          <p>The website code, the robot code, and the robot design files are openly available on our public FTP repo, so that we are not only helping our team, we are helping any future team that needs code.</p>
+          <p class="fix-text">The website code, the robot code, and the robot design files are openly available on our public FTP repo, so that we are not only helping our team, we are helping any future team that needs code.</p>
           <p><a class="btn btn-default" href="http://github.com/ahalverson/cecrobotics" role="button" target="_blank">View repository »</a></p>
         </div>
       </div>
@@ -87,14 +89,14 @@
         <div>
           <span class="sponsor-title">Gold Sponsors:</span>
           <br>
-          <img style="margin-top: 20px" src="img/samtec_opt.png">
+          <img id="samtec" src="img/samtec_opt.png">
           <br>
           <br>
           <span class="sponsor-title">Bronze Sponsors:</span>
           <br>
           <br>
           <img class="sponsors" src="img/graham_opt.png">
-          <span class="sponsors" style="padding-left: 30px">Mc and Win Properties</span>
+          <span class="sponsors" id="mc-win">Mc and Win Properties</span>
         </div>
       </div>
 

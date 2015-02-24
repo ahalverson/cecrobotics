@@ -17,5 +17,21 @@
 
 .contact {
 	font-size: 1.3em;
-	
+}
+
+.fix-text {
+	padding-top: 0px;
+}
+
+.caps-text {
+	font-variant: small-caps;
+	font-size: 1.5em;
+}
+
+#mc-win {
+	padding-left: 30px;
+}
+
+#samtec {
+	margin-top: 20px;
 }
