@@ -1,18 +1,19 @@
 
 // The contents of this file were written by Caleb Gentry so if they suck they are His (my) fault
+//The function for creating new people.... 
 Person = function(month, date, year, text, name, image){
-	var now = new Date();
-if(year < 100){
-if(year > now.getFullYear()){
+var now = new Date();
+if(year < 100){// if there is a two didget year
+if(year > now.getFullYear()){// if it's from the 1990s
 	year = year + 1900;
 }
-else{
+else{// if it's from the 2000
 	year = year + 2000;
 	
 }
 }
 var age;
-if(month > now.getMonth + 1 && day > now.getDate){
+if(month > now.getMonth + 1 && day > now.getDate){// if their birthday has passed
 	age = now.getFullYear() - year;
 }
   else{
@@ -20,7 +21,7 @@ if(month > now.getMonth + 1 && day > now.getDate){
   }
 
   var textArr;
-textArr = text.split(" ");
+textArr = text.split(" ");// to put the age into the text node within the hHTML
 //buggy, yet to be implemented
 /*
 var moveUpBy = 0;
@@ -59,7 +60,7 @@ var moveUpBy = 0;
  for(var h = 0; h < textArr.length; h++){
 	 text = text + " " + textArr[h];
  } 
- 
+ //create a bunch of HTML crap
  var div = document.createElement("div");
  div.className ="col-lg-4";
  var imgHTML =  document.createElement("img");
@@ -76,7 +77,7 @@ var moveUpBy = 0;
  document.getElementById("bioRow").appendChild(div);
  
 };
-
+// call the person function for each person
 Person(
 /*DOB*/
 //month
