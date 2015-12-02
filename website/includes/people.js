@@ -1,3 +1,4 @@
+//This is written by Caleb Gentry @epicTCK if it sucks it is his (my) fault lol
 Person = function (month, date, year, text, name, image) {
 	var now = new Date();
 	if (year < 100) {
